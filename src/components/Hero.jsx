@@ -20,9 +20,19 @@ const Hero = () => {
                   {cityList.map((city)=> <option key={city} value={city}>{city}</option> )}
                 </select>
                 <p className='px-1 text-sm text-gray-500'>{pickupLocation ? pickupLocation : 'Please Select Location'}
-                  
                 </p>
               </div>
+              <div className='flex flex-col items-start gap-2'>
+                <label htmlFor="pickup-date">Pick-Up Date</label>
+                <input type="date"  id="pickup-date" min={new Date().toISOString().split('T')[0]} className='text-sm text-gray-500' required/>
+              </div>
+              <div className='flex flex-col items-start gap-2'>
+                <label htmlFor="return-date">Retrun Date</label>
+                <input type="date"  id="return-date" className='text-sm text-gray-500' required/>
+              </div>
+              <button className='flex items-center justify-center gap-1 px-9 py-3 max-sm:mt-4 bg-primary hover:bg-primary-dull text-white rounded-full cursor-pointer'>
+                <img src={assets.search_icon} alt="search" className='brightness-300' />
+                Search</button>
           </div>
         </form>
 
