@@ -5,17 +5,17 @@ import { assets } from "../assets/assets";
 const Testimonial = () => {
 
     const testimonials = [
-        { name: "Emma Rodriguez", 
-          location: "Barcelona, Spain", 
-          image: assets.testimonial_image_1, 
+        { name: "Alif Mia", 
+          location: "Dhaka, Keranigang", 
+          image: assets.testimonial_image_3, 
           testimonial: "I've rented cars from various companies, but the experience with CarRental was exceptional." },
-        { name: "John Smith", 
-          location: "New York, USA", 
-          image: assets.testimonial_image_2, 
+        { name: "Asad Mia", 
+          location: "Barisal, Vhola", 
+          image: assets.testimonial_image_4, 
           testimonial: "I've used many booking platforms before, but none compare to the personalized experience and attention to detail that CarRental provides." },
-        { name: "Ava Johnson", 
-          location: "Sydney, Australia", 
-          image: assets.testimonial_image_1, 
+        { name: "Ali Hasan", 
+          location: "Chattogram, Cox's Bazar", 
+          image: assets.testimonial_image_5, 
           testimonial: "I've used many booking platforms before, but none compare to the personalized experience and attention to detail that CarRental provides." },
        
     ];
