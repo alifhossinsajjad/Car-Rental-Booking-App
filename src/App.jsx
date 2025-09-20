@@ -6,11 +6,13 @@ import Home from './pages/Home';
 import CarDetails from './pages/CarDetails';
 import Cars from './pages/Cars';
 import MyBookings from './pages/MyBookings';
+import Fotter from './components/Fotter';
 
 
 const App = () => {
 
   const [showLogin, setShowLogin] = useState(false)
+  // console.log(showLogin);
   const isOwnerpath = useLocation().pathname.startsWith('/owner')
 
   return (
@@ -25,7 +27,7 @@ const App = () => {
     </Routes>
 
 
-
+    {!isOwnerpath && <Fotter />}
     </>
   )
 }

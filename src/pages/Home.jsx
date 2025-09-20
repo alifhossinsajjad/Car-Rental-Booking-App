@@ -4,7 +4,7 @@ import FeatureSection from '../components/FeatureSection'
 import Banner from '../components/Banner'
 import Testimonial from '../components/Testimonial'
 import Newsletter from '../components/Newsletter'
-import Fotter from '../components/Fotter'
+
 
 const Home = () => {
   return (
@@ -14,7 +14,7 @@ const Home = () => {
     <Banner />
     <Testimonial/>
     <Newsletter/>
-    <Fotter/>
+    
     </>
   )
 }
