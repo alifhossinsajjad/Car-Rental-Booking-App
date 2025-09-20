@@ -23,7 +23,7 @@ const Fotter = () => {
 
                 <div>
                     <h2 className='text-base font-medium text-gray-800 uppercase'>Quick Links</h2>
-                    <ul className='mt-3 flex flex-col gap-2 text-sm'>
+                    <ul className='mt-3 flex flex-col gap-1.5 '>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Browse Cars</a></li>
                         <li><a href="#">List Your Car</a></li>
@@ -33,7 +33,7 @@ const Fotter = () => {
 
                 <div>
                     <h2 className='text-base font-medium text-gray-800 uppercase'>Resources</h2>
-                    <ul className='mt-3 flex flex-col gap-2 text-sm'>
+                    <ul className='mt-3 flex flex-col gap-1.5'>
                         <li><a href="#">Help Center</a></li>
                         <li><a href="#">Terms of Service</a></li>
                         <li><a href="#">Privacy Policy</a></li>
@@ -43,7 +43,7 @@ const Fotter = () => {
 
                 <div className='max-w-80'>
                     <h2 className='text-base font-medium uppercase text-gray-800'>Contact</h2>
-                    <ul className='mt-3 flex flex-col gap-2 text-sm'>
+                    <ul className='mt-3 flex flex-col gap-1.5'>
                         <li><a href="#">1234 Luxury Drive</a></li>
                         <li><a href="#">San Francisco, CA 94107</a></li>
                         <li><a href="#">+1 (555) 123-4567</a></li>
