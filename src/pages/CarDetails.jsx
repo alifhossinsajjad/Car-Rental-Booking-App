@@ -50,7 +50,7 @@ const CarDetails = () => {
               {[
                 {icon : assets.users_icon, text: `${car.seating_capacity} Seats`},
                 {icon : assets.fuel_icon, text: car.fuel_type},
-                // {icon : assets.car_icon, text: car.car.transmission},
+                {icon : assets.car_icon, text: car?.transmission},
                 {icon : assets.location_icon, text: car.location}
               ].map(({icon, text}) => (
                 <div key={text} className='flex flex-col items-center'>
