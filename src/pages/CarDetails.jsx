@@ -91,6 +91,24 @@ const CarDetails = () => {
 
           <p className='flex items-center justify-between text-2xl text-gray-800 font-semibold'>{currency} {car.pricePerDay} <span className='text-base text-gray-400 font-normal'>Per Day</span></p>
 
+          <hr className='border-borderColor my-6'/>
+
+
+          <div className='flex flex-col gap-2'>
+            <label htmlFor="pickup-date">Pickup Date</label>
+            <input type="date" className='border border-borderColor px-3 py-2 rounded-lg' required id='pickup-date' min={new Date().toISOString().split('T')[0]} />
+          </div>
+
+          <div className='flex flex-col gap-2'>
+            <label htmlFor="return-date">Return Date</label>
+            <input type="date" className='border border-borderColor px-3 py-2 rounded-lg' required id='return-date'  />
+          </div>
+
+          <button className='w-full bg-primary hover:bg-primary-dull transition-all py-3 font-medium text-white rounded-xl cursor-pointer'>Book Now</button>
+
+
+                <p className='text-center text-sm'>No credit Card required to reserved</p>
+
         </form>
       </div>
     </div>
