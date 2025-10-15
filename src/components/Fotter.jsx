@@ -44,10 +44,10 @@ const Fotter = () => {
                 <div className='max-w-80'>
                     <h2 className='text-base font-medium uppercase text-gray-800'>Contact</h2>
                     <ul className='mt-3 flex flex-col gap-1.5'>
-                        <li><a href="#">1234 Luxury Drive</a></li>
-                        <li><a href="#">San Francisco, CA 94107</a></li>
-                        <li><a href="#">+1 (555) 123-4567</a></li>
-                        <li><a href="#">car@example.com</a></li>
+                        <li><a href="#"> Luxury Drive</a></li>
+                        <li><a href="#">Bangladesh, Dhaka, 1310</a></li>
+                        <li><a href="#">+880 1824225331</a></li>
+                        <li><a href="#">alifhossinsajjad123456@gmail.com</a></li>
                     </ul>
                     
                 </div>
