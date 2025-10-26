@@ -1,11 +1,19 @@
-import React from 'react';
+import React from "react";
+import NavbarOwner from "../../components/Owner/NavbarOwner";
+import Sidebar from "../../components/Owner/Sidebar";
+import { Outlet } from "react-router-dom";
 
 const Layout = () => {
-    return (
-        <div>
+  return <div className="flex flex-col">
+    <NavbarOwner/>
+    <div className="flex">
+        <Sidebar/>
+        <Outlet>
             
-        </div>
-    );
+        </Outlet>
+
+    </div>
+  </div>;
 };
 
 export default Layout;
